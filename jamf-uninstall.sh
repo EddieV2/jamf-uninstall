@@ -164,5 +164,5 @@ done
 /bin/echo "All Jamf Connect components have been removed."
 /bin/echo ''''
 
-
+sudo jamf removeMDMProfile && sudo jamf removeSWUSettings && sudo jamf removeFramework
 exit
