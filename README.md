@@ -1,11 +1,4 @@
-# JamfConnectUninstall.sh
-
-Written by Matthew Ward  
-Original: 2020.02.10  
-Updates: 2020.09.10  
-v.19  
+This bash script is intended to disable and remove all Jamf Connect v1 & v2 components as well all Jamf Pro components.
+Configuration and MDM profiles will also be uninstalled, including any configuration profile that contains com.jamf.connect.
   
-This bash script is intended to disable and remove all Jamf Connect v1 & v2 components.  
-Configuration Profiles will only be removed if they contain com.jamf.connect; If that portion of the script fails, please remove  manually.  
-  
-Validated macOS 10.12 - macOS 11 (Big Sir)
+Validated working on macOS 10.12 - macOS 11 (Big Sur)
